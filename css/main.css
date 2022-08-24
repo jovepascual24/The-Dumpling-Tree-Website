@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@200;300;400;500;700&family=Parisienne&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* info bar stylings */
+
+.info-bar {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color:#f1f1f1;
+}
+
+.info-bar a {
+    text-decoration: none;
+  
+}
+
+.socials {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.socials a {
+    padding:.8rem;
+    color:white;
+}
+
+.socials span {
+    /* padding:0 1.5%; */
+    font-size:.8rem;
+}
+.socials a:hover {
+    background-color: #f1f1f1;
+    color:black;
+}
+
+.socials .reservation {
+    background-color: orange;
+    padding:.8rem;
+
+}
+
+.address {
+    flex:4;
+    padding:.8rem .8rem .8rem 3rem;
+
+}
+/* info bar styling ends */
+
+/* header styling starts */
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding:0 7% 0 7%;
+    background-color: black;
+    color: #f1f1f1;
+    
+}
+header .logo h1 {
+    padding:.8rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+header nav ul {
+    display: flex;
+    font-size: .8rem;
+    padding:.8rem;
+
+}
+
+header nav ul li {
+    list-style-type: none;
+    margin:1rem .5rem;
+    text-transform: uppercase;
+
+}
+
+
+header nav ul li a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+header nav ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+header .burger {
+    display: none;
+}
+/* header stylung ends */
+
+/* main section */
+
